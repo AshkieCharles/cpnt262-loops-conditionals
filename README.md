@@ -1,1 +1,2 @@
-# cpnt262-loops-conditionals
+### Actiity:cpnt262-loops-conditionals
+### Author: Ashkie Esperanza
