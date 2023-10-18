@@ -1,3 +1,5 @@
+/* */
+
 const reverseString = "alucarD";
 
 let newString = '';
@@ -9,7 +11,7 @@ for (let i = reverseString.length - 1; i >= 0; i--) {
 }
 
 console.log(newString);
-/* Break */
+/* Break                          */
 
 /* This will be the sentence we will use to find the longest word, the answer should be predicament */
 const exampleSentence = "Crow was not happy with his predicament"
@@ -17,9 +19,18 @@ const exampleSentence = "Crow was not happy with his predicament"
 
 function theLongestWord(str) {
   let longestWord = '';
-  return str.length
+  /* We put the different words within the sentence into an array with this the split to easily count the words in them. */
+  let words = str.split(" ")
+  
 
-
+  for (let i = 0; i < words.length; i += 1){
+    /* This variable is the string of whatever position i is in in words*/
+    let singleWords = words[i];
+    /* If the string's length is longer than whatever was inside the longestword variable, it stays that string until another larger one is given. */
+    if (singleWords.length > longestWord.length) {
+      longestWord = singleWords;
+    }
+  }
+  return longestWord
 }
-
 console.log(theLongestWord(exampleSentence))
