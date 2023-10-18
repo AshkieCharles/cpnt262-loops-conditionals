@@ -10,3 +10,16 @@ for (let i = reverseString.length - 1; i >= 0; i--) {
 
 console.log(reversedString);
 /* Break */
+
+/* This will be the sentence we will use to find the longest word, the answer should be predicament */
+const exampleSentence = "Crow was not happy with his predicament"
+
+
+function theLongestWord(str) {
+  let longestWord = '';
+  return str.length
+
+
+}
+
+console.log(theLongestWord(exampleSentence))
