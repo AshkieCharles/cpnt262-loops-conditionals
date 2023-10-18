@@ -31,13 +31,14 @@ function theLongestWord(str) {
     /* If the string's length is longer than whatever was inside the longestword variable, it stays that string until another larger one is given. */
     if (singleWords.length > longestWord.length) {
       longestWord = singleWords;
+    } else {
+      console.log();
     }
   }
-  
-  return longestWord
+    return longestWord
+
 }
 
 /* Runs the function on the variable we had for the sentence */
 console.log(theLongestWord(exampleSentence))
-
 
