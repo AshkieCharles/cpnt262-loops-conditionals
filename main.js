@@ -33,4 +33,5 @@ function theLongestWord(str) {
   }
   return longestWord
 }
+/* Runs the function on the variable we had for the sentence */
 console.log(theLongestWord(exampleSentence))
