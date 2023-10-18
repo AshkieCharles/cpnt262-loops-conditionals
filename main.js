@@ -19,6 +19,7 @@ const anotherExampleSentence = "Anakin really hated the sand"
 
 
 function theLongestWord(str) {
+  /* We make an empty variable to put strings into it */
   let longestWord = '';
   /* We put the different words within the sentence into an array with this the split to easily count the words in them. */
   let words = str.split(" ")
@@ -38,3 +39,5 @@ function theLongestWord(str) {
 
 /* Runs the function on the variable we had for the sentence */
 console.log(theLongestWord(exampleSentence))
+
+
