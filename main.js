@@ -32,7 +32,7 @@ function theLongestWord(str) {
     if (singleWords.length > longestWord.length) {
       longestWord = singleWords;
     } else {
-      console.log();
+      singleWords = words[i]
     }
   }
     return longestWord;
