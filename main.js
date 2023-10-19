@@ -32,6 +32,7 @@ function theLongestWord(str) {
       longestWord = singleWords;
     } 
   }
+  /* Adding an else would be redundant and it also breaks my code as it stops at the first word.*/
     return longestWord;
 }
 
