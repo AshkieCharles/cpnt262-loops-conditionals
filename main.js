@@ -21,7 +21,7 @@ function theLongestWord(str) {
   /* We make an empty variable to put strings into it */
   let longestWord = '';
   /* We put the different words within the sentence into an array with this the split to easily count the words in them. */
-  let words = str.split(" ")
+  let words = str.split(" ");
   
 
   for (let i = 0; i < words.length; i += 1){
