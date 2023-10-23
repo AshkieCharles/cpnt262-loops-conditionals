@@ -11,6 +11,7 @@ for (let i = reverseString.length - 1; i >= 0; i--) {
 }
 
 console.log(newString);
+
 /* Break                          */
 
 /* This will be the sentence we will use to find the longest word, the answer should be predicament */
@@ -38,4 +39,8 @@ function theLongestWord(str) {
 
 /* Runs the function on the variable we had for the sentence */
 console.log(theLongestWord(exampleSentence));
+document.getElementById('original-string').innerHTML = reverseString;
+document.getElementById('reversed-string').innerHTML = newString;
+document.getElementById('sentence').innerHTML = exampleSentence;
+document.getElementById('longest-word').innerHTML = (theLongestWord(exampleSentence));
 
